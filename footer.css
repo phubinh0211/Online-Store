@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+footer {
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+footer .row {
+  display: flex;
+}
+footer .row .column1 {
+  width: 25%;
+  padding: 50px;
+}
+
+footer .row .column1 .contacts {
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+footer .column1 ul {
+  margin-left: 10px;
+}
+#footer-logo {
+  height: 55px;
+  margin-bottom: 30px;
+}
+.internet {
+  margin-left: 5px;
+}
+.icon-media {
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  padding-left: 7px;
+  padding-top: 6px;
+  margin-right: 10px;
+}
+footer .internet .fb {
+  padding-left: 9px;
+}
+footer .row .column {
+  width: 20%;
+  padding: 50px 0px 50px 0px;
+}
+.thongTin-noiDung {
+  margin-top: 40px;
+}
+.thongTin-footer {
+  padding-top: 20px;
+}
+.footer-tittle {
+  font-size: 25px;
+  margin-top: 30px;
+  line-height: 20px;
+}
+.noiDung {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 16px;
+  color: rgb(194, 194, 194);
+}
+#khamPha-footer {
+  width: 13%;
+}
+#thanhVien-footer {
+  width: 17%;
+}
+#nhanTT-footer {
+  width: 25%;
+}
+#nhan-thong-tin {
+  line-height: 35px;
+  margin-top: 25px;
+  padding-right: 50px;
+  font-size: 24px;
+}
+.wrapper {
+  width: auto;
+
+  padding-top: 10px;
+  box-shadow: Opx 0px 10px rgba (0, 0, 0, 0.1);
+}
+.wrapper .input-data {
+  height: 40px;
+  width: 80%;
+  position: relative;
+}
+.wrapper .input-data input {
+  outline: none;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+  background-color: rgb(22, 22, 22);
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: rgb(156, 156, 156);
+}
+.wrapper .input-data label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.wrapper .input-data .underline {
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #ff7300;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline::before,
+.input-data input:valid ~ .underline:before {
+  transform: scaleX(1);
+}
+.dangKi {
+  position: relative;
+}
+.check {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+}
+.check:hover {
+  color: #ff7300;
+}
+.linebottom-footer {
+  background-color: gray;
+  height: 2px;
+  margin: 0px 50px 0px 50px;
+}
+.bottom-footer {
+  margin-top: 30px;
+  display: flex;
+  padding-bottom: 30px;
+}
+.bottom-footer h4 {
+  margin-right: 600px;
+  padding-left: 50px;
+}
+.decor-author {
+  color: #ff7b00;
+}
+.bottom-footer a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 15px;
+  margin-left: 15px;
+}

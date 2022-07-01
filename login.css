@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(255, 255, 255);
+  background-image: url(/buoi9/aorus/C44mkwKUoAALi2p.jpg);
+  background-size: 1350px;
+}
+
+.log {
+  width: 33%;
+  background-color: rgb(0, 0, 0, 0.6);
+  position: relative;
+  margin-top: 150px;
+  margin-left: 800px;
+}
+.log span {
+  color: rgb(255, 255, 255);
+  margin-left: 145px;
+  font-size: 35px;
+}
+.tieuDe {
+  padding-top: 25px;
+}
+
+.khung {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  width: 450px;
+  padding: 30px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  margin-top: 0px;
+}
+.khung1 {
+  margin-top: -20px;
+}
+.other-khung {
+  padding-top: 0px;
+}
+.khung .data-input {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.khung .data-input input {
+  color: white;
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+  background-color: rgba(0, 0, 0, 0);
+}
+.data-input input:focus ~ label,
+.data-input input:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: #666;
+}
+.khung .data-input label {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  color: gray;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.khung .data-input .gach-duoi {
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.data-input .gach-duoi::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #ff5e00;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.data-input input:focus ~ .gach-duoi::before,
+.data-input input:valid ~ .gach-duoi::before {
+  transform: scaleX(1);
+}
+
+.forgot {
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.forgot a {
+  text-decoration: none;
+  color: #ff5e00;
+}
+
+.checkbox {
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+}
+.checkbox input {
+  display: inline-block;
+  width: 30px;
+  margin-left: 20px;
+}
+.other-log {
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.other-log span {
+  font-size: 20px;
+  color: white;
+}
+.other-log span i {
+  margin-right: 5px;
+  font-size: 20px;
+  padding-left: 8px;
+  margin-left: 2px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  border: 1px solid #666;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.other-log .gg {
+  padding-left: 4px;
+}
+.final {
+  display: flex;
+  padding-bottom: 40px;
+  margin-top: 35px;
+}
+.create {
+  margin-left: 30px;
+
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 230px;
+  height: 40px;
+  position: relative;
+  border: 1px solid white;
+}
+.create a {
+  position: absolute;
+  top: 10%;
+  left: 16.5%;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.loin {
+  background-color: rgb(255, 123, 0);
+
+  margin-left: 25px;
+  width: 130px;
+  height: 40px;
+  position: relative;
+}
+.loin a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  top: 22%;
+  left: 12%;
+}
+footer {
+  margin-top: 125px;
+}

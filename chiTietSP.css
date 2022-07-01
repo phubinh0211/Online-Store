@@ -1,0 +1,282 @@
+body{
+  background-color: black;
+}
+
+
+
+#page{
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#name{
+    margin-top: 15px;
+    color: orange;
+}
+
+
+
+
+
+
+
+
+.vido{
+  margin-top: 110px;
+  position: relative;
+  max-width: 100%;
+}
+.ig{
+  position: absolute;
+  top: 250px;
+  height: 661px;
+  left: -61px;
+}
+#vide{
+  margin-left: 60px;
+}
+.tittles{
+  position: absolute;
+  letter-spacing: 6px;
+  color: white;
+  font-size: 40px;
+  top: 670px;
+  margin-left: 30px;
+}
+.tittless{
+  position: absolute;
+  letter-spacing: 6px;
+  color: white;
+  font-size: 20px;
+  top: 740px;
+  margin-left: 30px;
+  color: cyan
+}
+iframe{
+  margin-top: 30px;
+  margin-bottom: 230px;
+}
+.chiSo{
+  position: relative;
+  margin-bottom: 100px;
+}
+#banVe{
+  height:630px;
+
+}
+
+#fastButton{
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+#wifi{
+  position: absolute;
+  top: 185px;
+  left: 50px;
+  width: 235px;
+}
+#soundCard{
+  position: absolute;
+  top: 240px;
+  left: 50px;
+}
+#lan{
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+#thunderbolt{
+  position: absolute;
+  top: 320px;
+  left: 50px;
+}
+#base{
+  position: absolute;
+  top: 365px;
+  left: 50px;
+}
+#thermal{
+  position: absolute;
+  top: 405px;
+  left: 50px;
+}
+#pci{
+  position: absolute;
+  top: 450px;
+  left: 50px;
+}
+#vrm{
+  position: absolute;
+  bottom: 440px;
+  right:75px ;
+}
+#multikey{
+  position: absolute;
+  bottom: 400px;
+  right:250px ;
+}
+#chip{
+  position: absolute;
+  bottom: 360px;
+  right:10px ;
+}
+#funsion{
+  position: absolute;
+  bottom: 310px;
+  right:190px ;
+}
+#typeC{
+  position: absolute;
+  bottom: 265px;
+  right:85px ;
+}  
+.thongSo{
+  color: white;
+  font-size: 15px;
+}
+.tittle{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.titte{
+  position: relative;
+}
+.InLine{
+  position: absolute;
+  top: -20px;
+  left: 500px;
+  display: inline-flex;
+  vertical-align: middle;
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+}
+.line{display: inline-block;
+  width: 1px;
+  height: 40px;
+  margin: 10px 25px;
+  background: #616161;
+}
+.Inline{
+  position: absolute;
+  top: -20px;
+  left: 810px;
+  display: inline-flex;
+  vertical-align: middle;
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+}
+.lines{display: inline-block;
+  width: 1px;
+  height: 40px;
+  margin: 10px 25px;
+  background: #616161;
+}
+.in4{
+  position: relative;
+  margin-top: 185px;
+}
+.in4 img{
+  height: 400px;
+  position: absolute;
+  left: 50px;
+  top: -100px;
+
+}
+.in4 h2{
+  color: white;
+  position: absolute;
+  top : -100px;
+  left: 650px;
+}
+#trangTri{
+  height: 28px;
+  position: absolute;
+  left: 650px;
+  top: -65px;
+}
+.in4 span{
+  color: #616161;
+  font-size: 12px;
+  width: 680px;
+  position: absolute;
+  top: -35px;
+  left: 650px;
+}
+.in4 ul{
+  position: absolute;
+  left: 650px;
+  top: 30px;
+}
+.thongTin{
+  color: #616161;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.addProduct{
+  position: absolute;
+  top: 350px;
+  left: 650px;
+}
+.addProduct a{
+  color: white;
+  border: 2px solid rgb(255, 102, 0);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+.addProduct a:hover{
+  color: orange;
+  border: 2px solid rgb(255, 51, 0);
+}
+.buyProduct{
+  position: absolute;
+  top: 350px;
+  left: 925px;
+}
+.buyProduct a{
+  color: white;
+  border: 2px solid rgb(255, 102, 0);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+.buyProduct a:hover{
+  color: orange;
+  border: 2px solid rgb(255, 51, 0);
+}
+
+
+
+
+
+footer{
+  margin-top: 875px;
+}
+.bottomWeb{
+  margin-top: 60px;
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+  height: 170px;
+}
+#ar{
+  height: 160px;
+  margin-left: -10px;
+}
+.icons{
+  color: white;
+  font-size: 40px;
+  margin-top: 5px;
+  padding-right: 20px;
+  
+}
+.truyenThong{
+  background-color: rgb(49, 49, 49);
+  text-align: center;
+}

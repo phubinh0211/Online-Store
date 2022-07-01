@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: black;
+}
+header{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(/buoi9/mayra_img/images/F_20200612141982Qtv3Sb.png);
+  background-size: cover;
+  background-position: center ;
+  padding: 0 8%;
+  position: relative;
+}
+
+.textBox {
+  color: white;
+  position: absolute;
+  bottom: 20%;
+  cursor: default;
+}
+.textBox p {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 58px;
+}
+.textBox h1 {
+  font-size: 180px;
+  line-height: 160px;
+  margin-left: -10px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background-image: url(/buoi9/mayra_img/images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+
+
+.textBox h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: -33px;
+}
+.media{
+  color: white;
+  height: 30px;
+}
+#new{
+  margin-top: 20px;
+}
+#news{
+  margin-top: 115px;
+}
+#news h1{
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  margin-top: 0;
+}
+#insta{
+  height: 30px;
+}
+.fbs{
+  font-size: 30px;
+  color: white;
+}
+.media{
+  position: absolute;
+  right: 5%;
+  bottom: 35%;
+}
+.media a{
+  width: 25px;
+  display: block;
+  margin: 25px 5px;
+  color: white;
+}
+
+
+
+
+#ad{
+  margin-top: 20px;
+  height: 500px;
+  margin-left: 20%;
+}
+.tt{
+  text-align: center;
+  color: white;
+}
+.ab{
+
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 20px;
+  line-height: 32px;
+  color: #c4c4c4;
+}
+#abwe{
+  margin-top: 135px;
+}
+.danhMuc{
+  width: 260px;
+  height: 260px;
+}
+.tenDanhMuc{
+  color: #c4c4c4;
+  padding-left:40px;
+}
+
+#san-Pham{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 125px;
+}
+
+.animation:hover{
+  border: 2px orangered solid;
+}
+
+footer{
+  margin-top: 210px;
+}
+
+
